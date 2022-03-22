@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Donut_listview">
         <activity
-            android:name=".MainActivity0"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".DonutDetail"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityBegin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
