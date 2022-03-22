@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+    tools:context=".MainActivity"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Jala!"
+            android:textSize="18dp"
+            android:textColor="#A6000000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choice your Best Food"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_search"
+        android:layout_marginTop="20dp"
+        android:hint="Search food"
+        android:textColorHint="#C4C4C4"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/donutBtn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/donut_custom_btn"
+            android:text="Donut"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:backgroundTint="#F1B000"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pinkDonutBtn"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:background="@drawable/pink_donut_custom_btn"
+            android:layout_marginLeft="11dp"
+            android:gravity="center"
+            android:text="Pink Donut"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:backgroundTint="#26C4C4C4"
+            app:backgroundTintMode="screen"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/floatingBtn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/floating_custom_btn"
+            android:layout_marginLeft="11dp"
+            android:gravity="center"
+            android:text="Floating"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:backgroundTint="#1FC4C4C4"
+            app:backgroundTintMode="screen"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/donutListView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp" />
+
+</LinearLayout>

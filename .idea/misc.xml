@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/custom_search.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/donus_list_view_spacing.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/donut_custom_btn.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/donut_item_bgr.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/floating_custom_btn.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/drawable/pink_donut_custom_btn.xml" value="0.2265" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/activity_main0.xml" value="0.12360688956433637" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/donut_detail.xml" value="0.12360688956433637" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/donut_item_custom.xml" value="0.4" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/main.xml" value="0.12360688956433637" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/layout/start.xml" value="0.25416666666666665" />
+        <entry key="..\:/CODE/NAM 3/Ki 2/Donut_listview/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
